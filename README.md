@@ -29,6 +29,8 @@ my list so far:
 4. An email sending command line tool.
 4. A simple daemon that does nothing but daemonize properly.
 5. A daemon that watches other daemons and sends an email when they go down.
+5.5 A daemon that watches other daemons and kills/restarts them when they go down.
+
 6. A daemon that watches logs and emails when a trigger is hit.
 7. A grep-like that easily searches directories.
 8. A smart directory copy tool.
@@ -45,7 +47,7 @@ my list so far:
 19. A socket honey pot daemon.
 20. A daemon that receives block requests over zeromq and blocks IP addresses with firewall rules.
 21. A custom web scraper.
-
+22. Monitor an S3 instance, stop it when it is idle for 30 min.   
 If you have other suggestions then send me a pull request to this document.  The key
 is to think, "What would really help a modern sysadmin understand and automate the hell
 out of a unix box thus making Chef/Puppet/Ansible/Salt easier."  Another thought is,
